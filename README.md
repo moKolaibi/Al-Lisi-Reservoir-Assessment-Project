@@ -28,17 +28,17 @@ This repository provides MATLAB scripts for rigorous estimation and analysis of 
 ## Usage
 
 1. **Monte Carlo Simulation**
-   - Run `geothermal_montecarlo_alisi_yemen.m` for a full simulation with convergence testing.
+   - Run `geothermal_montecarlo_main_ALisi_YEMEN.m` for a full simulation with convergence testing.
    - The script prints all key results and saves arrays for further plotting or analysis.
 
 2. **Plotting**
-   - Use `geothermal_montecarlo_plot_pub.m` to create high-quality plots from simulation outputs.
+   - Use `geothermal_montecarlo_allblueplots_mwe.m` to create high-quality plots from simulation outputs.
 
 3. **Sensitivity Analysis**
-   - Run `global_sensitivity_morris_alisi_yemen.m` to assess parameter importance and produce sensitivity plots.
+   - Run `Global_sensitivity_Model_Alisi_Yemen.m` to assess parameter importance and produce sensitivity plots.
 
 4. **Validation**
-   - Use `geothermal_montecarlo_la_palma_validated.m` to reproduce results for the La Palma field or validate the model against other published studies.
+   - Use `MonteCarlo_La_Palma_VALIDATED.m` to reproduce results for the La Palma field or validate the model against other published studies.
 
 ## Author
 
